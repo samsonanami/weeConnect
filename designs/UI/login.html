@@ -13,6 +13,10 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light navbar-dark bg-dark" style="height:50px">
+                <div class="row"></div>
+        </nav>
+        
     <div class="container-fluid">
         <div class="row">
             <div class="col-xs-6 col-sm-4"></div>
@@ -29,42 +33,42 @@
         <div class="row">
             <div class="col-xs-6 col-sm-4"></div>
             <div class="col-xs-6 col-sm-4">
-                <div class="border rounded-right border1">
-                <div class="color-block blue-gradient z-depth-2">
-                <p class="text-center font-weight-bold">Members Log in</p>
-                <form class="">
-                   
-                    <div class="form-group">
+            <div class="card border-warning mb-4" style="">
+                <div class="card-header font-weight-bold">Members Log in</div>
+                <div class="card-body">
+                    <p class="text-center text-warning">Please enter your credentials to login</p>
+                    <form class="">
+                    
+                        <div class="form-group">
+                                <div class="inner-addon left-addon">
+                                    <i class="fa fa-user text-warning"></i>
+                                    <input type="text" class="form-control" id="username" placeholder="Username or email">
+                                </div>
+                        </div>
+
+                        <div class="form-group">
                             <div class="inner-addon left-addon">
-                                <i class="fa fa-user"></i>
-                                <input type="text" class="form-control" id="username" placeholder="Username or email">
-                            </div>
-                    </div>
-
-                    <div class="form-group">
-                        <div class="inner-addon left-addon">
-                            <i class="fa fa-lock"></i>
-                            <input type="password" class="form-control" id="lastname" placeholder="Password">
-                        </div>
-                    </div>
-                    <div class="form-group">
-                        <div class="col-sm-offset-2 col-sm-10">
-                            <div class="checkbox">
-                                <label>
-                                    <a class="medium-text"><input type="checkbox"> Remember me</a>
-                                </label>
+                                <i class="fa fa-lock text-warning"></i>
+                                <input type="password" class="form-control" id="lastname" placeholder="Password">
                             </div>
                         </div>
-                    </div>
-                    <div class="form-group">
-                        <div class="text-center">
-                            <button type="submit" class="button button4 btn-warning">Sign in >></button>
+                        <div class="form-group">
+                            <div class="text-center">
+                                <div class="checkbox">
+                                    <label>
+                                        <a class="medium-text"><input type="checkbox"> Remember me</a>
+                                    </label>
+                                </div>
+                            </div>
                         </div>
-                    </div>
-                    <p class="small-text text-center" >Don't have an account <a class="text-warning" href="register.html">REGISTER HERE</a>
-                </form>
+                        <div class="form-group">
+                            <div class="text-center">
+                                <button type="submit" class="button button4 btn-warning">Sign in >></button>
+                            </div>
+                        </div>
+                        <p class="small-text text-center " >Don't have an account<a class="text-warning" href="register.html">REGISTER HERE</a>
+                    </form>
                 </div>
-
                 </div>
             </div>
             <div class="col-xs-6 col-sm-4"></div>
