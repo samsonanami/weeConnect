@@ -14,7 +14,7 @@ Clone this repository on your local machine and navigate to the below path and t
 You only need browser on your device
 
 ```
-Mozilla Firefox, Google Chrom, Safari, Opera e.tc
+Mozilla Firefox, Google Chrome, Safari, Opera e.tc
 ```
 
 ### Installing
@@ -24,7 +24,7 @@ Clone the repository on your local machine and the program is ready
 The steps will be
 
 ```
-1. Clone
+1. Clone this Repository
 2. Open on browser
 3. Click the links to view
 ```
